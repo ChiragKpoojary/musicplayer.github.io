@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,100;1,400&display=swap");
+body {
+  background-color: wheat;
+}
+* {
+  margin: 0%;
+  border: 0%;
+}
+nav {
+  font-family: "poppins";
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  height: 60px;
+  background-color: black;
+  position: relative;
+}
+.brand img {
+  height: 60px;
+  width: 200px;
+  margin-left: 0px;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+nav ul li {
+  color: aliceblue;
+  display: flex;
+  margin-left: 70px;
+  width: 0%;
+  align-items: center;
+  word-spacing: 0%;
+}
+.container {
+  min-height: 450px;
+  background-color: black;
+  color: aliceblue;
+  font-family: "poppins";
+  display: flex;
+  width: 70%;
+  margin: 23px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-image: url("89f4ba34b8db75f0ed96726423bb048f.webp");
+  padding-left: 10px;
+}
+.bottom {
+  position: fixed;
+  height: 15vh; /* Adjust the height as needed */
+  background-color: black;
+  color: white;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 999; /* Adjust the z-index as needed */
+}
+
+
+.icons {
+  margin-top: 20px; /* Adjust the margin as needed */
+}
+
+#myProgressBar {
+  width: 35vw;
+  height: 10px; /* Adjust the height as needed */
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.songinfo {
+  position: absolute;
+  left: 0;
+ margin-left: 20px;
+  margin-bottom: 2px;
+  font-size: 1.7rem;
+}
+
+.songitem {
+  height: 60px;
+  display: flex;
+  background-color: white;
+  width: 150%;
+  color: black;
+  margin: 12px 0;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.songitem img {
+  margin: 1px 5px 0;
+  width: 70px;
+  border-radius: 50px;
+}
+.timespam {
+  margin: 0 23px 0;
+}
+
+
+.currentTimeDisplay{
+  display: flex;
+  align-items: left;
+}
+#currentTimeDisplay {
+  margin-right: 10px; /* Adjust margin as needed */
+}
+
+#progressBarContainer {
+  display: flex;
+  align-items: center;
+}
+
+#myProgressBar {
+  flex: 1;
+  margin: 0 10px; /* Adjust margin as needed */
+}
+#durationDisplay {
+  margin-left: 10px; /* Adjust margin as needed */
+}
